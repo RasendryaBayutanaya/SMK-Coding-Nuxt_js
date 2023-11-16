@@ -1,6 +1,6 @@
 <script lang="ts" setup>
     const props = defineProps({
-        product: {
+        product: { 
             type: Object,
             default: {},
         }
