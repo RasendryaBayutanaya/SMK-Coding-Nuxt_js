@@ -4,7 +4,7 @@ import { useStorageStore } from "~/stores/storage";
 import { useProductsStore } from '~/stores/products';
 import type { FormField } from '~/types/products';
 
-const categoryStore = useCategoryStore();
+const categoryStore = useCategoryStore(); 
 const storageStore = useStorageStore();
 const productStore = useProductsStore();
 
